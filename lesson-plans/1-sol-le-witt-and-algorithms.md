@@ -1,8 +1,15 @@
-# Page 1
+# 1: Sol Le Witt and Algorithms
 
 ### Teacher Notes and Overview
 
-
+* Introduction to Sol LeWitt
+* Art vs. Art (product vs production)
+* Discussion Questions - need to get/brainstorm
+  * Discussion protocols???
+* Introduction to algorithms
+* Algorithm drawing activity
+  * materials from SEP - remake?
+* PB\&J extension???
 
 ### Objectives
 
