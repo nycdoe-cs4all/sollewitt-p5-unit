@@ -2,7 +2,9 @@
 
 ### Teacher Notes and Overview
 
-
+* Build on previous lesson
+* Sound from mic
+* Project - ????
 
 ### Objectives
 

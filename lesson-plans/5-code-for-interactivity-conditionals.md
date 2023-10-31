@@ -2,7 +2,8 @@
 
 ### Teacher Notes and Overview
 
-
+* Utilize ICM resources
+* Make things change based on mouse position
 
 ### Objectives
 

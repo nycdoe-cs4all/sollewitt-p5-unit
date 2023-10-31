@@ -2,11 +2,13 @@
 description: chalk talk
 ---
 
-# 🗃 7: Discussion: Sol le Witt, Mediums, Concept
+# 7: Discussion: Sol le Witt, Mediums, Concept
 
 ### Teacher Notes and Overview
 
-
+* Discussion based lesson on medium and how they affect concept
+* Most of lesson done in chalk talk
+* Need questions and protocol
 
 ### Objectives
 

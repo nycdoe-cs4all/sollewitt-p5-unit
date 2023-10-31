@@ -2,7 +2,9 @@
 
 ### Teacher Notes and Overview
 
-
+* Utilize ICM resources (include example with lines)
+* Including styling with for loops
+* Modulo extension?
 
 ### Objectives
 

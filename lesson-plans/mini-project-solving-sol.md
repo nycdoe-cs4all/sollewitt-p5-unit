@@ -2,7 +2,9 @@
 
 ### Teacher Notes and Overview
 
-
+* [https://solvingsol.com/](https://solvingsol.com/)
+* Wall --> Canvas
+* Make random iterations???
 
 ### Objectives
 
