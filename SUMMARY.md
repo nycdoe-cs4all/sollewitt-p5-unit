@@ -17,5 +17,5 @@
 
 ## Final Project
 
-* [Final Project Pt 1: Create an Algorithm](final-project/final-project-pt-1-create-an-algorithm.md)
+* [🎨 Final Project Pt 1: Create an Algorithm](final-project/final-project-pt-1-create-an-algorithm.md)
 * [🎨 Final Project Pt 2: Create from an Algorithm (Final Critique and Defense)](final-project/final-project-pt-2-create-from-an-algorithm-final-critique-and-defense.md)
