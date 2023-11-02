@@ -1,3 +1,7 @@
+---
+description: How can I recreate Sol LeWitt pieces using code?
+---
+
 # 🗃 Mini Project: Solving Sol
 
 ### Teacher Notes and Overview
@@ -14,13 +18,9 @@ Students will be able to:
 
 ### Suggested Duration
 
+NYS Standards
 
 
-### NYS Standards
-
-
-
-### Vocabulary
 
 
 
@@ -32,11 +32,5 @@ Students will be able to:
 
 
 
-### Assessments
-
-**Formative:**
-
-**Summative:**
-
-### Do Now/Warm Up (\~min - min)
+### Project Launch and Prompt
 
