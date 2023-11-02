@@ -30,7 +30,7 @@ NYS Standards
 
 ### Resources
 
-
+* [Sol LeWitt Algorithms List](https://docs.google.com/document/d/1a0CBUfScb7VgLndpjeBh3TDOXlLf6xx\_v8ait-\_7fFA/copy) (Google Doc)
 
 ### Project Launch and Prompt
 
