@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🔮 Unit Overview](README.md)
+* [🔮 Unit Overview - Sol LeWitt: Code and Concept](README.md)
 * [How to Use This Unit](how-to-use-this-unit.md)
 * [📬 Leave Us Feedback](leave-us-feedback.md)
 
