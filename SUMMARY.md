@@ -7,7 +7,7 @@
 ## Lesson Plans
 
 * [1: Sol Le Witt and Algorithms](lesson-plans/1-sol-le-witt-and-algorithms.md)
-* [2.1: Intro to Code, Shapes and Styling](lesson-plans/2.1-intro-to-code-shapes-and-styling/README.md)
+* [2.1: Intro to Code, Shapes and Styling](lesson-plans/2-intro-to-code-shapes-and-styling.md)
   * [2.2: Lines, Points, Color](lesson-plans/2.1-intro-to-code-shapes-and-styling/2.2-lines-points-color.md)
 * [3: Intro to Code, Variables](lesson-plans/3-intro-to-code-variables.md)
 * [4: Code for Responsiveness: Sound](lesson-plans/4-code-for-responsiveness-sound.md)

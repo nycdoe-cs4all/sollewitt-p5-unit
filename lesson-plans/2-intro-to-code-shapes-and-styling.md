@@ -67,7 +67,7 @@ _Note that due to DOE settings, if they are signing up with a DOE (@schools.nyc.
 
 ### Intro: Your First p5 Sketch (\~10 - 15 minutes)
 
-Explain to students that for this unit, they will be learning to use p5.js, which is a library that builds onto the JavaScript programming language. You may or may not want to show them the brief video on JavaScript or other resources linked in the above [Resource](./#resources) section, depending on how much prior coding experience they may or may not have.
+Explain to students that for this unit, they will be learning to use p5.js, which is a library that builds onto the JavaScript programming language. You may or may not want to show them the brief video on JavaScript or other resources linked in the above [Resource](2-intro-to-code-shapes-and-styling.md#resources) section, depending on how much prior coding experience they may or may not have.
 
 p5.js and it's Java equivalent, Processing, are both libraries used for creative coding and by artists such as [Casey Reas](https://reas.com/).
 
