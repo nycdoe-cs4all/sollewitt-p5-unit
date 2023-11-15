@@ -6,13 +6,7 @@ description: How can I draw shapes on a digital canvas?
 
 ### Teacher Notes and Overview
 
-* Utilize ICM early units
-* Introduce p5 editor
-* Introduce shapes - circles, rects, lines, points.
-  * Include other shapes as alternate extension???
-* Introduce color/styling simultaneously
-  * A little more rapid fire
-* Activity for end of lesson...?????
+This lesson kicks off the students' journey into coding! They will sign up for the website that will house their code and will begin by learning basics and getting simple shapes to appear on the screen. While this lesson will likely take a single period, it could be extended if you wanted to give a more open-ended practice project.
 
 ### Objectives
 
@@ -25,11 +19,11 @@ Students will be able to:
 
 ### Suggested Duration
 
-
+1-2 Days
 
 ### NYS Standards
 
-
+\[COMING SOON]
 
 ### Vocabulary
 
@@ -40,7 +34,7 @@ Students will be able to:
 
 ### Planning Notes and Materials
 
-
+Please note that there is a grid worksheet of the p5.js coordinates - you may want copies or laminated versions to use in class.
 
 ### Resources
 
@@ -55,7 +49,11 @@ Students will be able to:
 
 **Formative:**
 
+Code Challenge Projects
+
 **Summative:**
+
+Upcoming Mini Project
 
 ### Do Now/Warm Up (\~3 min - 5 min)
 
@@ -149,3 +147,50 @@ function draw() {
   rect(300, 50, 75, 75)
 }
 ```
+
+### Noticing fill() (\~5 - 10 minutes)
+
+Now, with at least three shapes on our canvas, we may notice that whatever `fill()` was set above the first ellipse applies to _all shapes._ Explaint o students that this is because the draw function runs in an endless loop forever (the setup function runs just once, at the start of the program) which allows us to get some interesting interactions.
+
+If we wanted to make each shape it's own color, they would each need to have their own fill. Changes to the shape should happen before the shape is drawn, like so:
+
+```javascript
+function draw() {
+  background(220) //max value 255, background color of canvas, low numbers dark, high numbers light
+  
+  fill(255) //max value 255, color of ellipse, low numbers dark, high numbers light
+  ellipse(150, 200, 50, 75) //left/right position, up/down position, width, height
+  
+  //second ellipse
+  fill(120)
+  ellipse(50, 50, 100, 100) //adjust nums based on student input
+  
+  //rectangle top right area
+  fill(0)
+  rect(300, 50, 75, 75)
+}
+```
+
+### Your Challenge (10 - 15 min)
+
+Ask students to create a new project in the p5 editor - this is their chance to practice naming and saving their new files.
+
+Once created, students will attempt to recreate the following (the sketch can build - no need to make multiple files:
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Step 1</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Step 2 - they can include center recs and circles!</p></figcaption></figure>
+
+This task will require them to layer shapes; shapes drawn first in the code are drawn first, which means they may appear behind shapes drawn later. Once students have gotten the design down, encourage them to practice adding a fill to each shape.
+
+### Wrap Up (\~3 - 5 minutes)
+
+Ask students to share what they have made and/or answer any combination of the following questions:
+
+1. What is something you learned today?
+2. What was challenging today?
+3. What is something you still have questions about, or would like to learn about?
+
+### Extensions and Additions
+
+If you are looking to challenge your students, consider having them spend time making a more complex design out of the given shapes. 'Drawing a robot' tends to lend itself well to only having circles and rectangles available, but they could make this prompt anything!
