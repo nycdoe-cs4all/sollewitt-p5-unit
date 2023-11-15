@@ -1,3 +1,7 @@
+---
+description: How can I draw shapes on a digital canvas?
+---
+
 # 2: Intro to Code, Shapes and Styling
 
 ### Teacher Notes and Overview
@@ -109,4 +113,39 @@ function draw() {
 
 ### Introducing: the Reference Sheet && p5 Grid (\~5 - 10 minutes)
 
-Students were able to figure e
+Students were able to figure out what the numbers meant; but it would be hard to guess all the possible things available in the p5 library, or even to remember what all the arguments do (and taking 5 minutes to experiment each time can be annoying). Luckily, the developers have made a [reference sheet](https://p5js.org/reference/) for us to use - this is called _documentation_ and it is something all good programmers should practice.
+
+With students, find the `ellipse()` function (either via search or by scrolling down to **Shape --> 2D Primitives**). Review the documentation together and make sure it matches what they agreed upon from their exploration; then, return to the canvas and add another ellipse in the draw function (recall it must be before the ending curly brace):
+
+<pre class="language-javascript"><code class="lang-javascript">function draw() {
+  background(220) //max value 255, background color of canvas, low numbers dark, high numbers light
+  
+  fill(255) //max value 255, color of ellipse, low numbers dark, high numbers light
+  ellipse(150, 200, 50, 75) //left/right position, up/down position, width, height
+<strong>  
+</strong><strong>  //second ellipse
+</strong><strong>  ellipse(50, 50, 100, 100) //adjust nums based on student input
+</strong><strong>}
+</strong></code></pre>
+
+Now, one thing students may notice is that the coordinates might not make sense with cartesian planes they usually see in math. This is because on a JavaScript canvas (and in many other programming languages), the origin is seen as the top left of the screen - that's because this is where screens turn on from! Display or distribute the [p5 Grid Worksheet](https://drive.google.com/file/d/1CFJLhiHEBTQPxqTaNxESPxpc7F0Yto4D/preview) to give students an idea of how this works.
+
+**NB:** _These can be great to have laminated and available throughout the unit, or to have taped down to the corners of desks or tables for quick reference._
+
+Using what you know about the grid and the reference sheet, ask students to add a rectangle that will appear somewhere near the top right side of the screen. Give them \~2 minutes to navigate the reference sheet and draw their shape, then reconvene - ask students to provide you with the values for their rectangle OR ask a student to display their code and explain their choices. Values may vary, but you will likely end up with something like this:
+
+```javascript
+
+function draw() {
+  background(220) //max value 255, background color of canvas, low numbers dark, high numbers light
+  
+  fill(255) //max value 255, color of ellipse, low numbers dark, high numbers light
+  ellipse(150, 200, 50, 75) //left/right position, up/down position, width, height
+  
+  //second ellipse
+  ellipse(50, 50, 100, 100) //adjust nums based on student input
+  
+  //rectangle top right area
+  rect(300, 50, 75, 75)
+}
+```
