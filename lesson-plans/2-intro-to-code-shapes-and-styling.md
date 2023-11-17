@@ -27,10 +27,10 @@ Students will be able to:
 
 ### Vocabulary
 
-* **p5.js**
-* **code**
-* **IDE**
-* **function**
+* **p5.js** - a JavaScript library built on Processing, a library for Java. It is intended to be used for web-based, visual creative coding projects.
+* **code -** instructions written for a computer to follow
+* **IDE** - integrated development environment, a place online where you can write code
+* **function** - a sequence of program instructions that performs a specific task, packaged as a unit. (We see these units as `ellipse()`, `rect()`, `createCanvas()`, etc in this lesson - functions will always have `()` after the name of the unit!)
 
 ### Planning Notes and Materials
 
