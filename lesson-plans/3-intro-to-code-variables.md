@@ -179,7 +179,7 @@ Note that some of our values did not need anything added to them because the dis
 2. _What is something that you still have questions about?_
 3. _How can you imagine using this in the future?_
 
-### Creating Our Own Variables (\~10 min)
+### Creating Our Own Variables (\~10 - 15 min)
 
 **NB:** _This is likely the start of a new day for this lesson block - if so, you an use the first part of students moving several ellipses in a line as a Do Now activity before launching into the lesson._
 
@@ -188,3 +188,58 @@ Ask students to get computers and duplicate the Do Now Starter Code ([p5 editor]
 Once students are done, ask them what is frustrating about this process, and what might make it easier.
 
 Students should be able to verbalize that changing every single number individually is frustrating. While most won’t be able to say that making a variable would make this a simpler process, they should be thinking that there must be someway for them to move everything together/at the same time. This is the launch to your activity!
+
+Instead of changing values manually, explain that we can use variables instead. A variable is just a “container” that holds a value which we can then apply and quickly change values in multiple places in our code.
+
+Explain to students that there are three steps to creating a variable:
+
+**Declare** - Declaring our variable is basically just telling the program “hey! I’m creating a variable, and this is what it’s going to be called.” All you need to do when you want to declare a variable is write the term “var variableName”.
+
+**Initialize** - give variableName a value. This is called an assignment operation. We are assigning a value to our variable. If I write variableName = 50, every time I use my variable name, the program will replace it with the number 50.
+
+**Use the variable** - Your code won’t break if you don’t use the variable, but then what was the point? If we add an ellipse at ellipse(100,100,variableName,variableName), our ellipse will be 50px wide and 50px high.
+
+An error proof way for these three steps will be to use three lines of code. See the image below:
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Notice where we placed these lines of code - the declared variable is way at the top before the `setup` function. We gave it a value in setup (our initialize step), and then used it in our `draw` function, although it could be used in `setup` as well.
+
+This method will work for _all_ data types assigned to variables and is a good practice if you worry your students may become confused. If you have prior coding experience, or have advanced students, you are welcome to talk about other ways to declare and initalize that may be more efficient.
+
+Once students have the idea of using variables, it's time to code one into the program. Begin by telling students you are going to make a variable that will control the y position because we can see that all the ellipses in our design have the _same_ y position. When code repeats, it is usually an indicator that we can make it more efficient.
+
+```javascript
+let circleY
+
+function setup(){
+    createCanvas(600, 120)
+    circleY = 60
+}
+```
+
+Next, utilize the y variable by plugging it into the code itself:
+
+```javascript
+function draw() {
+	background(180);
+	ellipse(120, circleY, 60, 60);
+	ellipse(200, circleY, 60, 60);
+	ellipse(280, circleY, 60, 60);
+	ellipse(360, circleY, 60, 60);
+	ellipse(440, circleY, 60, 60);
+}
+```
+
+**As you code, discuss the following:**
+
+* Why are we calling our variable `circleY`? Make sure students understand that we name variables useful things so we keep track of them - you might ask them how we could make this even more precise, and then change the variable name to something like ellipseY. You should also model adding comments with your variables about what this will control.
+* Where could we use this variable? Students should tell you in the y position.
+* What value should this variable have to start? If students aren’t sure, suggest starting at 60 to make sure it runs - then you can change it from there.
+* Why do you think we named our variable above all the other functions? This is your introduction to global variables. Some students will see the visual cue that the variable is declared before we use it and that it’s used in two functions - some will not. It’s okay to explain this a bit more, they will see it again in more detail when they learn about random().
+* Why did we need to set the value of y in the setup? This is a great question they might not grasp yet, but will during the next lesson - setup runs ONCE and sets up the value of our variable. Draw runs continuously. Right now, nothing will go ‘wrong’ if we give our variable a value in draw, but they it’s good to start getting the differences in now.
+
+After the variable is added in, give it a few different values, running the program each time to see the change (you might want to make the canvas longer for this).
+
+### Designs with One Variable and `random()` (10 - 15 minutes)
+
