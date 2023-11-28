@@ -1,11 +1,12 @@
+---
+description: How can I integrate variables into my code?
+---
+
 # 3: Intro to Code, Variables
 
 ### Teacher Notes and Overview
 
-* ICM resources
-* Combine mouseX/mouseY with making variables
-* Make shapes move on screen/follow the mouse (two circles - one as emoji?)
-* Include random
+In this two-day lesson, students are introduced to variables and their use in programming. They first begin by looking at variables built into the p5.js library, and in the second day, learn how custom variables can be useful in their program. They will use variables to store values randomly chosen by the computer.
 
 ### Objectives
 
@@ -25,15 +26,15 @@ Students will be able to:
 
 ### Vocabulary
 
-* `width`
-* `height`
-* `mouseX`/`mouseY`
-* `variable`
-* `random()`
+* `width` - a system variable that stores the width of the canvas based on the `createCanvas()` function.
+* `height`- a system variable that stores the height of the canvas based on the `createCanvas()` function.
+* `mouseX`/`mouseY` - system variables that hold the x and y position coordinates of the mouse, respectively.
+* `variable` - a word used in programming to hold value. These values can be changed and updated in the program.
+* `random()` - a function that will randomly select a value from a range
 
 ### Planning Notes and Materials
 
-
+There are no specific planning notes or materials needed for this lesson.
 
 ### Resources
 
@@ -45,7 +46,11 @@ Students will be able to:
 
 **Formative:**
 
+Starter Code Assignments
+
 **Summative:**
+
+Upcoming Mini Project
 
 ### Do Now/Warm Up (\~3 min - 5 min)
 
