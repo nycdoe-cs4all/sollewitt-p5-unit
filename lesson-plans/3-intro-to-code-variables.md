@@ -37,8 +37,9 @@ Students will be able to:
 
 ### Resources
 
-* NEED: Do Now Starter Code
+* [Do Now Starter Code](https://editor.p5js.org/cs4all/sketches/S1eQDQRXX) (p5 Editor)
 * [Robot Starter Code](https://editor.p5js.org/cmorgantywls/sketches/EJj7pcAx9) (p5 Editor)
+* V[ariable and Random Starter Code](https://editor.p5js.org/cmorgantywls/sketches/HxZTOzPgO) (p5 Editor)
 
 ### Assessments
 
@@ -48,7 +49,7 @@ Students will be able to:
 
 ### Do Now/Warm Up (\~3 min - 5 min)
 
-Share students on this sample ([p5 editor ](https://editor.p5js.org/cs4all/sketches/S1eQDQRXX)| [repl.it](https://replit.com/@qrtnycs4all/U1LA21-Intro-to-Variables-Do-Now#script.js)) code.
+Share students on this sample ([p5 editor](https://editor.p5js.org/cs4all/sketches/S1eQDQRXX)) code.
 
 Instruct students to play with their code and then try to create an ellipse that is perfectly centered in their canvas. If students complete this task early, ask them to make the ellipse large enough so that the ellipse touches each edge of the canvas (if their canvas is square - if it comes out as a rectangle, touching the top and bottom will suffice). **NOTE: **_**There is also an extra credit typo for them to fix in the code!**_
 
@@ -243,3 +244,106 @@ After the variable is added in, give it a few different values, running the prog
 
 ### Designs with One Variable and `random()` (10 - 15 minutes)
 
+Similarly to `mouseX` and `mouseY`, we can use our variables to control the entirety of a design. In this instance, we will practice by moving a triangle - while it is a single shape, it requires all 3 x,y coordinate points to move together if you want to preserve it's shape.
+
+Let's try this with a triangle from our [Starter Code](https://editor.p5js.org/cmorgantywls/sketches/HxZTOzPgO):
+
+```javascript
+let triX
+
+function setup() {
+  createCanvas(400, 400)
+  triX = 50 //original value of the first x in triangle
+}
+
+function draw() {
+  background(220);
+  text(mouseX + ", " + mouseY, 20,20)
+  
+  triangle(triX, 200, 155, 120, 230, 240)
+  
+  quad(220, 45, 300, 10, 370, 100, 210, 130)
+}
+```
+
+If we wanted to reposition our entire triangle as it looks now with a variable, we would need to replace the other two x values (155 and 230) using the `triX` variable and the distance between that original x point and those x coordinates. Doing so would end in this result:
+
+```javascript
+let triX
+
+function setup() {
+  createCanvas(400, 400)
+  triX = 50 //original value of the first x in triangle
+}
+
+function draw() {
+  background(220);
+  text(mouseX + ", " + mouseY, 20,20)
+  
+  triangle(triX, 200, triX+105, 120, triX+180, 240)
+  
+  quad(220, 45, 300, 10, 370, 100, 210, 130)
+}
+```
+
+Once you've shown that this works by changing the value of `triX` several times, ask students to make a `triY` variable and repeat the process on their own for the y values. Regather to check that things work correctly before continuing.\
+\
+Explain that you can now make your shape move by changing the variable values manually - but what if you want your shape to pick a random position each time? Luckily, p5.js has a built-in `random()` function that will pick a random value for us.
+
+Let's adjust our triangle variables. If we want to pick a random value from anywhere on the screen, we might do this:
+
+```javascript
+let triX
+
+function setup() {
+  createCanvas(400, 400)
+  triX = random(width)
+}
+
+function draw() {
+  background(220);
+  text(mouseX + ", " + mouseY, 20,20)
+  
+  triangle(triX, 200, triX+105, 120, triX+180, 240)
+  
+  quad(220, 45, 300, 10, 370, 100, 210, 130)
+}
+```
+
+We could also limit it to picking values in a range by saying something like `random(250)` (will only pick values between 0 and 250) or `random(50, 300)` (will only pick values between 50 and 300).
+
+**`random()` can be used in a few ways:**
+
+* If you just type`random(num)`, it will assume you want it to choose from a range of 0 to the`num`you entered. It is _exclusive_ of the entered number, meaning if you put in 5, it will show every number up to but not including 5.
+* If you type `random(5,20)`, it will give you a value anywhere between 5 and 20. It will be _inclusive_ of 5 - meaning that it could show that number - but _exclusive_ of 20, meaning it will show up to but not exactly 20.
+* If you continued on your programming journey, you would eventually learn that you can use random to get numbers from arrays and other data sources too!
+* **NB:** _random isn't a specific idea to p5.js, but in order to use it outside of the p5.js library you need to use the JavaScript Math library and do a little bit more computing to get the values you likely want._
+
+Ask students to create two new variables for the x and y positions of the `quad()` shape. Both should hold random values. Plug them in accordingly so both shapes appear randomly on the page!
+
+### Student Challenges (10 - 15 minutes)
+
+_For each challenge, you will need to practice creating at least one new variable!_
+
+1. Create an ellipse that will generate randomly anywhere on the top half of the screen. X position can be fixed or random.
+2. Give the ellipse a `fill`, but make the green color value change each time the program is run with a random variable.
+3. Give the ellipse a `strokeWeight()` that will vary randomly each time the program is run, but only in a range of 2 to 10.
+4. Create a second ellipse that will move with the first but always stay the same distance away.
+
+### Wrap Up (\~5 minutes)
+
+Display several examples of student work with successes in changing colors and sizes. Make sure that you show what's happening in their code and discuss with a class to make sure everyone is on the same page and give space to answer any questions or address any conceptual misunderstandings!
+
+If your class struggled, base your discussion around problems they encountered rather than a tutorial. If they are close to finding a solution and you have extra time, you can walk them through in a code-along, but do not anticipate or force getting to that place.
+
+**Student Assessment Guiding Questions:**
+
+* What did you learn about the random function?
+* What questions do you still have?
+* How might you use this in future projects?
+
+### Extensions and Additions
+
+Students may want to play with the difference between giving variables random values in setup vs. draw. Please note that draw runs on a loop, which means the random values will change - rapidly. This can result in a flashing effect and should be used with caution, especially with students that have a history of seizures.
+
+However, they can combine this with `frameRate()` placed in the setup function - this will accept a numeric value to adjust how quickly the draw function runs and can create interesting effects. The typical `frameRate()` is 60 frames per second.
