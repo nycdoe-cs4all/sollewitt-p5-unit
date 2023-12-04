@@ -2,7 +2,7 @@
 
 ### Teacher Notes and Overview
 
-* Utilize ICM resources (include example with lines)
+* Utilize ICM resources (include example with lines) - _abbreviate and offer extra resources - nested conditionals moved to an extra???_
 * Including styling with for loops
 * Modulo extension?
 

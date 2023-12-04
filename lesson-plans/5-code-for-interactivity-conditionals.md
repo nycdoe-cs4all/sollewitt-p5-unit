@@ -2,7 +2,7 @@
 
 ### Teacher Notes and Overview
 
-* Utilize ICM resources
+* Utilize ICM resources - _abbreviate and link extra resources for interested parties._
 * Make things change based on mouse position
 
 ### Objectives
