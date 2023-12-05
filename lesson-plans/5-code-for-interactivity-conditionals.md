@@ -80,3 +80,24 @@ if(5<4){
 } //background will not be black because 5 IS NOT less than 4. Code will be skipped!
 ```
 
+### Our First Conditional (\~12 - 15 minutes)
+
+
+
+### Student Challenge (\~15 minutes)
+
+
+
+### Else If and Logical Operators (10 - 12 minutes)
+
+_Start of new day_
+
+### Code Along with Logical Operators (10 min)
+
+
+
+### Wrap Up (5 minutes)
+
+
+
+### Extension and Addition
