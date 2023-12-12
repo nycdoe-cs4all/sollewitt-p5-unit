@@ -8,6 +8,12 @@ description: How can I draw shapes on a digital canvas?
 
 This lesson kicks off the students' journey into coding! They will sign up for the website that will house their code and will begin by learning basics and getting simple shapes to appear on the screen. While this lesson will likely take a single period, it could be extended if you wanted to give a more open-ended practice project.
 
+If you are looking for further resources, activities, or would generally like a deeper dive into these topics, we recommend taking a look at the following lessons from our Introduction to Computational Media curriculum:
+
+* [U1LA1.1: p5.js Introduction && Deconstruction](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la1.1-p5.js-introduction-and-deconstruction)
+* [U1LA1.3: Rectangles, Ellipses, and Layering](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la1.3-rectangles-ellipses-and-layering)
+* [U1LA1.4: Other Shapes and Styling](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la1.4-other-shapes-and-and-styling)
+
 ### Objectives
 
 Students will be able to:

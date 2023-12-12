@@ -12,6 +12,11 @@ Students should be fairly comfortable with loops by the end of this lesson. Ther
 
 This pair programming experience is very open-ended - try to encourage students to talk together about features for their program, rather than each person deciding for the group when it is their turn to navigate.
 
+If you are looking for further resources, activities, or would generally like a deeper dive into these topics, we recommend taking a look at the following lessons from our Introduction to Computational Media curriculum:
+
+* [U3LA1.2: For Loops Pt 1](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-3-arrays-loops-media/u3la1.2-for-loops-pt-1)
+* [U3LA1.3: Nested For Loops (For Loops pt 2)](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-3-arrays-loops-media/u3la1.3-nested-for-loops-for-loops-pt-2)
+
 ### Objectives
 
 Students will be able to:

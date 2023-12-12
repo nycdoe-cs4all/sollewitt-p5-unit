@@ -8,6 +8,12 @@ description: How can I integrate variables into my code?
 
 In this two-day lesson, students are introduced to variables and their use in programming. They first begin by looking at variables built into the p5.js library, and in the second day, learn how custom variables can be useful in their program. They will use variables to store values randomly chosen by the computer.
 
+If you are looking for further resources, activities, or would generally like a deeper dive into these topics, we recommend taking a look at the following lessons from our Introduction to Computational Media curriculum:
+
+* [U1LA3.1: Introducing Variables](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la3.1-introducing-variables)
+* [U1LA3.2: Creating Custom Variables](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la3.2-creating-custom-variables)
+* [U1LA4.4: Using the Random Function](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/unit-1-draw-and-draw-with-functions/u1la4.4-using-the-random-function)
+
 ### Objectives
 
 Students will be able to:

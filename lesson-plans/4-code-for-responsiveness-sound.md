@@ -8,9 +8,7 @@ description: How can user generated sound control program elements?
 
 This is a fairly brief and straightforward lesson - the most fun comes from the play. In p5.js, it's a very quick and easy process to get input from the mic and use that value to control elements of the program. Students generally enjoy using inputs to control their programs, and they'll come up with a lot of creative projects as a result of this lesson!
 
-* Build on previous lesson
-* Sound from mic
-* Project - ????
+[This lesson is built on an extension from our Introduction to Computational Media Curriculum.](https://cs4all-icm.gitbook.io/js-intro-to-computational-media-2.0/curriculum-extras/getting-sound-from-mic)
 
 ### Objectives
 
