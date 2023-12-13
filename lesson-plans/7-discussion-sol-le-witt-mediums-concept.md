@@ -31,9 +31,9 @@ Students will be able to:
 
 ### Vocabulary
 
-* **medium**
-* **concept**
-* **intention**
+* **medium:** The materials or tools used to create artwork, whether it's a physical object, a digital creation, or a combination of both. In this class, your medium could be the type of paint, the coding language, or any other means by which you express your artistic ideas.
+* **concept:** The main idea or underlying theme behind an artwork. It's the thought or message that the artist wants to convey through their creation. In this class, your concept might be the core idea guiding your artistic choices and the story you want to tell with your art or code.
+* **intention:** The purpose or goal that an artist has in mind when creating their work. It's what the artist aims to communicate or achieve through their art. In this class, your intention could be the specific effect or reaction you want your audience to have when they experience your artwork or code.
 
 ### Planning Notes and Materials
 
