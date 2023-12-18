@@ -24,10 +24,10 @@ Students will be able to:
 
 ### NYS Standards
 
-1. **Standard 1: Creating, Performing, and Participating in the Arts**:
-2. **Standard 2: Knowing and Using Arts Materials and Resources**:
-3. **Standard 3: Responding to and Analyzing Works of Art**:
-4. **Standard 4: Understanding the Cultural Dimensions and Contributions of the Arts**:
+1. **Standard 1: Creating, Performing, and Participating in the Arts**: Students create, perform, and participate in the arts for enjoyment and self-expression.
+2. **Standard 2: Knowing and Using Arts Materials and Resources**: Students use knowledge of available arts materials, processes, and resources to plan and create original works of art.
+3. **Standard 3: Responding to and Analyzing Works of Art**: Students respond critically to a variety of works in the arts, connecting the individual work to other works and to other aspects of human endeavor and thought.
+4. **Standard 4: Understanding the Cultural Dimensions and Contributions of the Arts**: Students analyze the role and development of the visual arts in past and present cultures throughout the world, noting human diversity as it relates to the visual arts and artists.
 
 ### Vocabulary
 

@@ -29,7 +29,8 @@ Students will be able to:
 
 ### NYS Standards
 
-\[COMING SOON]
+* **9-12.DL.1** Type proficiently on a keyboard.&#x20;
+* **9-12.DL.2** Communicate and work collaboratively with others using digital tools to support individual learning and contribute to the learning of others.
 
 ### Vocabulary
 

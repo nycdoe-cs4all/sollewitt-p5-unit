@@ -28,7 +28,11 @@ Students will be able to:
 
 ### NYS Standards
 
-\[COMING SOON]
+**7-8.CT.7** Design or remix a program that uses a variable to maintain the current value of a key piece of information.
+
+**9-12.DL.1** Type proficiently on a keyboard.
+
+**9-12.DL.2** Communicate and work collaboratively with others using digital tools to support individual learning and contribute to the learning of others.
 
 ### Vocabulary
 
