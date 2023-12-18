@@ -32,7 +32,7 @@ Students will be able to:
 
 Students will be given algorithms that their peers have created and asked to create art from them. Our suggestion is to give students three algorithms and allow them to choose one to visually execute using code, one to visually execute using traditional media, and one that they can choose between.
 
-While all three given algorithms can come from students, you may choose to have two student algorithms and one Sol Le Witt thrown in the mix; feel free to play with the variety to best fit the needs of your classroom.\
+While all three given algorithms can come from students, you may choose to have two student algorithms and one Sol Le Witt thrown in the mix; feel free to play with the variety to best fit the needs of your classroom. **If you only have students submitting and they only submit one algorithm**, create three copies and put a copy in each of three piles. Shuffle each and allow students to choose one algorithm from each pile. If students submit all three algorithms, students will pick from one large group of all algorithms. _Try to avoid letting students selectively pick algorithms - this should be a little random, like a card draw!_\
 \
 Scale of pieces should be up to students. Depending on the environment, it may be possible for some students to ask to create directly on walls of the school with advanced planning.
 
