@@ -4,9 +4,6 @@ description: How can I create an artistic algorithm for others to follow?
 
 # 🎨 Final Project Pt 1: Create an Algorithm
 
-* Need protocol for algorithm development and prototyping
-* Back and forth instructions to paper - need several mockups
-
 ### Teacher Notes && Overview
 
 This part 1 project will lead directly into part 2 of the final - it's important that students are set up for success and create thoughtful artistic algorithms now to ensure a smooth process in part 2.
