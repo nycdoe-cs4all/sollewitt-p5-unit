@@ -65,7 +65,7 @@ Ask students to draw a simple, abstract design on the page. They will then swap 
 
 Display a simple, abstract design on the board. Ask students to explaint he algorithm for the drawing in 1-2 sentences. (_We recommend using the Prince symbol for a nice throwback!_)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>The Artist Formerly Known as Prince</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The Artist Formerly Known as Prince</p></figcaption></figure>
 
 ### Framing the Discussion (\~2 - 5 minutes)
 

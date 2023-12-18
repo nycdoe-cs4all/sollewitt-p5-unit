@@ -13,7 +13,7 @@ This part 1 project will lead directly into part 2 of the final - it's important
 
 Please note that suggestions for the amount of prototype outputs are _just suggestions_ - you are welcome to adjust this to meet the needs or typical structures of your class.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="286"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="286"><figcaption></figcaption></figure>
 
 ### Objectives
 
@@ -35,6 +35,14 @@ Students will be able to:
 Begin by telling students that they are going to have a chance to show off everything they learned in this unit in a two-part final project: first, they will create an algorithm that can be followed to make art. Then, they will receive a few randomly selected algorithms from their classmates and will be tasked with making different art pieces from them.\
 \
 Before we get there, students must create their algorithm. They will actually create _three_ algorithms and then select their favorite that they would like to submit to the pool other students will be assigned from.
+
+Distribute the final project planning packet to students. They will be writing an algorithm, deciding how it would best be executed, and then drawing several small examples. These examples do not need to be detailed or complete. You can reference Sol Le Witt instructions as an example, and are encouraged to reference past projects to get students thinking about what a good algorithm might be.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Students should be aware that their suggestion as to the format their algorithm should be completed in is _not_ a guarantee - their peers may follow their instruction and may not. After they've created their algorithms, they will randomly submit one that will be added into the classroom mix three times.
+
+Keep three separate piles with one copy of each submitted algorithm in each pile. Shuffle well. Students will pick a paper from each pile; these will be the algorithms that they recreate and submit as their final body of work in the next project.
 
 **Project Prompt:**
 
