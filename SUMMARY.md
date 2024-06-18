@@ -13,7 +13,7 @@
 * [4: Code for Responsiveness: Sound](lesson-plans/4-code-for-responsiveness-sound.md)
 * [5: Code for Interactivity: Conditionals](lesson-plans/5-code-for-interactivity-conditionals.md)
 * [6: Intro to Code, For Loops](lesson-plans/6-intro-to-code-for-loops.md)
-* [🗃 Mini Project: Solving Sol](lesson-plans/mini-project-solving-sol.md)
+* [🗃️ Mini Project: Solving Sol](lesson-plans/mini-project-solving-sol.md)
 * [7: Discussion: Sol le Witt, Mediums, Concept](lesson-plans/7-discussion-sol-le-witt-mediums-concept.md)
 
 ## Final Project
